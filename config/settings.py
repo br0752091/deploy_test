@@ -24,7 +24,11 @@ SECRET_KEY = 'django-insecure-ls-+!w#!w!3_b^l0st+l52)!fp7+#&4p42g&y&x_p0m81r-bup
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["45.138.159.127", "expence-tracker.uz"]
+ALLOWED_HOSTS = ["45.138.159.127", "expence-tracker.uz", "www.expence-tracker.uz"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://expence-tracker.uz",
+    "https://www.expence-tracker.uz",
+]
 
 # Application definition
 
