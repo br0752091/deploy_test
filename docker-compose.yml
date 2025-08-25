@@ -29,3 +29,4 @@ networks:
 
 volumes:
     static:
+    postgres_data:
